@@ -1,0 +1,16 @@
+.btn{
+    width: 230px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 6px;    
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border:none;
+    cursor: pointer;
+}

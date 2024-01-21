@@ -1,0 +1,36 @@
+.left-box{
+  
+    width: 460px;
+    height: 582px;
+    margin-left: 38%;
+    flex-shrink: 0;
+    
+    
+}
+
+.image{
+    width: 459px;
+    height: 470px;
+    /* border-radius: 24px; */
+    flex-shrink: 0;
+}
+
+.heading{
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.para{
+    width: 459px;
+    color: #7E7E7E;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 133.333% */
+    letter-spacing: -0.45px;    
+}

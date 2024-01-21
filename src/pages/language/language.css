@@ -1,0 +1,50 @@
+.l-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1920px;
+    height: 1080px;
+    justify-content: center;
+    align-items: center;
+}
+/* LEFT BOX CSS */
+
+/* RIGHT_SIDE CSS */
+
+.l-right-box{
+    margin-top: 15rem;
+    width: 478px;
+    height: 530px;
+    flex-shrink: 0;
+    margin-left: 10%;
+}
+.l-logo{
+    width: 394.535px;
+    height: 79.122px;
+    flex-shrink: 0;
+}
+
+
+.l-btn-container{
+    margin-top: 35px;    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.l-btn{
+    width: 154px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #C4C4C4;
+    background: #FFF;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 122.222% */
+    letter-spacing: -0.54px;
+}

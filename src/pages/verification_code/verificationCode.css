@@ -1,0 +1,125 @@
+.vc-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+ 
+    
+}
+
+
+.vc-logo{
+    width: 399px;
+    height: 79px;
+    flex-shrink: 0;
+
+}
+
+.vc-text{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal; 
+    font-weight: 400;
+    line-height: 22px; /* 91.667% */
+    letter-spacing: -0.72px;
+    margin: 120px 0 15px 0;
+}
+
+.vc-heading{
+    display: flex;
+    width: 376px;
+    height: 36px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.38px; 
+    margin: 0;   
+}
+
+.vc-greyText{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 518px;
+    margin-top: 15px;
+    
+}
+
+.vc-inputs{
+    display: flex;
+    width: 480px;
+    height: 80px;
+    flex-shrink: 0;   
+    margin: 10px 39px 40px 0; 
+    appearance: none;
+}
+
+.vc-input{
+    width: 69.981px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #D8D8D8;
+    background: #FFF;
+    font-size: 70px;
+    text-align: center;
+    margin: 15px 5px 60px 5px;   
+    appearance: none;
+}
+.vc-two-comp{
+    margin-top: 10px;    
+}
+.vc-lasttext{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.vc-resend{
+    text-decoration: none;
+    opacity: 0.5;
+    color: var(--logo-color, #FF5670);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal; 
+       
+}
+
+.vc-error{
+    color: #b12222;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal; 
+
+}
+.vc-correct{
+    color:  #4c920a;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal; 
+
+}
